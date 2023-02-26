@@ -1,13 +1,13 @@
 //это класс который позволяет добавлять определенные ловушки на любые объекты такие как объекты функции и классы
 
 const validator = {
-    get(target, prop){
+    get(target, prop) {
         return prop in target ? target[prop] : `Field ${prop} is undefined`
     },
-    set(target, prop, value){
-        if(value.length > 2){
+    set(target, prop, value) {
+        if (value.length > 2) {
             Reflect.set(target, prop, value)
-        } else{
+        } else {
             console.log("Length should be more then 2 symbols" + value.length);
         }
     }
