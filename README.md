@@ -8,12 +8,14 @@ Extensions:
     3) Prettier - Code formatter
     4) Live server - Launch a development local Server with live reload feature for static & dynamic pages (Go Live)
     5) Git Graph | Git lens
-
+    6) Quokka.js
+    C#
+    7) vscode-solution-explorer
 
     Secondary importance
     1) Backticks - helper for `${}`
     2) CSS Peek
-    3) IntelliCode
+    3) Intelli Code
     4) Github Copilot
     5) Editor config
     6) Tailwind CSS IntelliSense
@@ -37,3 +39,9 @@ Emmet
 Editor: Word Wrap
     lorem
 Markdown : open preview
+
+.net commands:
+dotnet add targetPrj references sourceProj          - добавляем ссылку на проект
+dotnet add targetPrj package packageName            - добавляем сторонний Nuget пакет
+dotnet new sln -n "nameSln"                         - создать solution
+dotnet sln add NameOfLibOne                         - добавить проект в solution   
