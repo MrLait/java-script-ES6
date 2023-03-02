@@ -11,7 +11,8 @@ Extensions:
     6) Quokka.js
     C#
     7) vscode-solution-explorer
-
+    8) NuGet Gallery
+    
     Secondary importance
     1) Backticks - helper for `${}`
     2) CSS Peek
@@ -42,6 +43,6 @@ Markdown : open preview
 
 .net commands:
 dotnet add targetPrj references sourceProj          - добавляем ссылку на проект
-dotnet add targetPrj package packageName            - добавляем сторонний Nuget пакет
+dotnet add targetPrj package packageName            - добавляем сторонний Nuget пакет Но проще использовать extension NuGet Gallery
 dotnet new sln -n "nameSln"                         - создать solution
 dotnet sln add NameOfLibOne                         - добавить проект в solution   
