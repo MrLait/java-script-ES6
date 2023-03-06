@@ -7,11 +7,10 @@
 // за исключением function. Можно объявить переменную после функции.
 
 // Const 
-// const это переменные значение которых нельзя изменить т.е нельзя изменить ссылку, но можно поменять или добваить новое 
+// const это переменные значение которых нельзя изменить т.е нельзя изменить ссылку, но можно поменять или добавить новое 
 // значение в созданный массив или объект
 let letNum = 2
-if (true)
-{
+if (true) {
     var varNum = 42
     let letNum = 1
     console.log('letNum', letNum)
@@ -25,12 +24,12 @@ console.log(b)
 //let b = 10
 var b = 14
 
-function hosted (){
+function hosted() {
     age = 26
 }
 
-let age 
-hosted() 
+let age
+hosted()
 console.log(age)
 
 const color = 123
